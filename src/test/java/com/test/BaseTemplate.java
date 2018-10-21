@@ -52,7 +52,8 @@ public class BaseTemplate {
 		initilize.setDriver(driver);
 		System.out.println("Get Driver Name : "+initilize.getDriver());
 		driver.manage().window().maximize();
-		driver.get(readProp.getProperties("url"));		
+		driver.get(readProp.getProperties("url"));	
+		System.out.println("testing--");
 	}
 	
 	
